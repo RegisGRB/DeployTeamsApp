@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "id": "a26f8a30-2248-11ea-89dc-6d7a59ac1527",
+  "version": "0.0.1",
+  "packageName": "teams",
+  "developer": {
+    "name": "infeeny",
+    "websiteUrl": "https://{{HOSTNAME}}",
+    "privacyUrl": "https://{{HOSTNAME}}/privacy.html",
+    "termsOfUseUrl": "https://{{HOSTNAME}}/tou.html"
+  },
+  "name": {
+    "short": "teams",
+    "full": "teams"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://{{HOSTNAME}}/teamsTab/config.html",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ],
+      "sharePointPreviewImage": "https://{{HOSTNAME}}/assets/teamsTab-preview.png",
+      "supportedSharePointHosts": [
+        "sharePointFullPage",
+        "sharePointWebPart"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "{{HOSTNAME}}"
+  ]
+}

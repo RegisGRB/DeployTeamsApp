@@ -1,0 +1,11 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "infeeny",
+      "unitTestsEnabled": true,
+      "useAzureAppInsights": true
+    },
+    "libraryName": "teams",
+    "generator-version": "2.11.1"
+  }
+}
